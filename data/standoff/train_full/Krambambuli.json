@@ -1,0 +1,1024 @@
+{
+    "scenes": [
+        {
+            "start": 0,
+            "end": 604,
+            "reason_for_change": [],
+            "type": "Nicht-Szene"
+        },
+        {
+            "start": 605,
+            "end": 1759,
+            "reason_for_change": [
+                "Zeit",
+                "Handlung,",
+                "1,"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 1760,
+            "end": 3990,
+            "reason_for_change": [
+                "Figuren,",
+                "Raum,",
+                "Handlung,",
+                "Zeit",
+                "2,"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 3992,
+            "end": 5869,
+            "reason_for_change": [
+                "Zeit",
+                "Figuren,",
+                "Handlung,"
+            ],
+            "type": "Nicht-Szene"
+        },
+        {
+            "start": 5871,
+            "end": 6929,
+            "reason_for_change": [
+                "3"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 6931,
+            "end": 7275,
+            "reason_for_change": [
+                "Raum,",
+                "Zeit",
+                "Figuren,",
+                "Handlung,"
+            ],
+            "type": "Nicht-Szene"
+        },
+        {
+            "start": 7276,
+            "end": 7689,
+            "reason_for_change": [
+                "4"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 7691,
+            "end": 10705,
+            "reason_for_change": [
+                "Raum,",
+                "Zeit",
+                "Figuren,",
+                "Handlung,"
+            ],
+            "type": "Nicht-Szene"
+        },
+        {
+            "start": 10707,
+            "end": 12038,
+            "reason_for_change": [
+                "Figuren,",
+                "Raum,",
+                "Handlung,",
+                "Zeit",
+                "5,"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 12040,
+            "end": 12266,
+            "reason_for_change": [
+                "Zeit",
+                "Handlung,"
+            ],
+            "type": "Nicht-Szene"
+        },
+        {
+            "start": 12267,
+            "end": 14764,
+            "reason_for_change": [
+                "6"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 14766,
+            "end": 15692,
+            "reason_for_change": [
+                "7"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 15694,
+            "end": 15984,
+            "reason_for_change": [
+                "Raum,",
+                "Zeit",
+                "Figuren,",
+                "Handlung,"
+            ],
+            "type": "Nicht-Szene"
+        },
+        {
+            "start": 15986,
+            "end": 21151,
+            "reason_for_change": [
+                "8,",
+                "Zeit",
+                "Figuren,",
+                "Handlung,"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 21152,
+            "end": 21756,
+            "reason_for_change": [
+                "Figuren,",
+                "Raum,",
+                "Handlung,",
+                "Zeit",
+                "9,"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 21757,
+            "end": 22113,
+            "reason_for_change": [
+                "Figuren,",
+                "Raum,",
+                "Handlung,",
+                "Zeit",
+                "10,"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 22115,
+            "end": 22506,
+            "reason_for_change": [
+                "11,",
+                "Figuren,",
+                "Raum,",
+                "Handlung,",
+                "Zeit"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 22508,
+            "end": 23196,
+            "reason_for_change": [
+                "12"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 23198,
+            "end": 23551,
+            "reason_for_change": [
+                "13"
+            ],
+            "type": "Szene Ebene 1"
+        },
+        {
+            "start": 23553,
+            "end": 23896,
+            "reason_for_change": [],
+            "type": "Nicht-Szene"
+        }
+    ],
+    "sentences": [
+        {
+            "start": 0,
+            "end": 68
+        },
+        {
+            "start": 69,
+            "end": 153
+        },
+        {
+            "start": 154,
+            "end": 200
+        },
+        {
+            "start": 201,
+            "end": 351
+        },
+        {
+            "start": 352,
+            "end": 473
+        },
+        {
+            "start": 474,
+            "end": 604
+        },
+        {
+            "start": 605,
+            "end": 798
+        },
+        {
+            "start": 799,
+            "end": 916
+        },
+        {
+            "start": 917,
+            "end": 1076
+        },
+        {
+            "start": 1077,
+            "end": 1217
+        },
+        {
+            "start": 1218,
+            "end": 1519
+        },
+        {
+            "start": 1521,
+            "end": 1759
+        },
+        {
+            "start": 1760,
+            "end": 1804
+        },
+        {
+            "start": 1805,
+            "end": 1924
+        },
+        {
+            "start": 1925,
+            "end": 1971
+        },
+        {
+            "start": 1972,
+            "end": 2124
+        },
+        {
+            "start": 2125,
+            "end": 2254
+        },
+        {
+            "start": 2255,
+            "end": 2404
+        },
+        {
+            "start": 2405,
+            "end": 2557
+        },
+        {
+            "start": 2558,
+            "end": 2686
+        },
+        {
+            "start": 2687,
+            "end": 2848
+        },
+        {
+            "start": 2849,
+            "end": 2975
+        },
+        {
+            "start": 2976,
+            "end": 2999
+        },
+        {
+            "start": 3000,
+            "end": 3099
+        },
+        {
+            "start": 3101,
+            "end": 3179
+        },
+        {
+            "start": 3180,
+            "end": 3304
+        },
+        {
+            "start": 3305,
+            "end": 3382
+        },
+        {
+            "start": 3383,
+            "end": 3408
+        },
+        {
+            "start": 3409,
+            "end": 3417
+        },
+        {
+            "start": 3418,
+            "end": 3430
+        },
+        {
+            "start": 3431,
+            "end": 3441
+        },
+        {
+            "start": 3442,
+            "end": 3737
+        },
+        {
+            "start": 3738,
+            "end": 3836
+        },
+        {
+            "start": 3837,
+            "end": 3990
+        },
+        {
+            "start": 3992,
+            "end": 4175
+        },
+        {
+            "start": 4176,
+            "end": 4265
+        },
+        {
+            "start": 4266,
+            "end": 4486
+        },
+        {
+            "start": 4487,
+            "end": 4652
+        },
+        {
+            "start": 4653,
+            "end": 4759
+        },
+        {
+            "start": 4760,
+            "end": 4801
+        },
+        {
+            "start": 4802,
+            "end": 4913
+        },
+        {
+            "start": 4914,
+            "end": 5012
+        },
+        {
+            "start": 5014,
+            "end": 5080
+        },
+        {
+            "start": 5081,
+            "end": 5158
+        },
+        {
+            "start": 5160,
+            "end": 5255
+        },
+        {
+            "start": 5256,
+            "end": 5301
+        },
+        {
+            "start": 5302,
+            "end": 5477
+        },
+        {
+            "start": 5478,
+            "end": 5554
+        },
+        {
+            "start": 5555,
+            "end": 5869
+        },
+        {
+            "start": 5871,
+            "end": 5985
+        },
+        {
+            "start": 5986,
+            "end": 6336
+        },
+        {
+            "start": 6337,
+            "end": 6539
+        },
+        {
+            "start": 6540,
+            "end": 6674
+        },
+        {
+            "start": 6675,
+            "end": 6929
+        },
+        {
+            "start": 6931,
+            "end": 7054
+        },
+        {
+            "start": 7055,
+            "end": 7136
+        },
+        {
+            "start": 7137,
+            "end": 7275
+        },
+        {
+            "start": 7276,
+            "end": 7359
+        },
+        {
+            "start": 7360,
+            "end": 7503
+        },
+        {
+            "start": 7504,
+            "end": 7689
+        },
+        {
+            "start": 7691,
+            "end": 7762
+        },
+        {
+            "start": 7763,
+            "end": 7825
+        },
+        {
+            "start": 7826,
+            "end": 7874
+        },
+        {
+            "start": 7875,
+            "end": 8057
+        },
+        {
+            "start": 8058,
+            "end": 8178
+        },
+        {
+            "start": 8179,
+            "end": 8282
+        },
+        {
+            "start": 8284,
+            "end": 8439
+        },
+        {
+            "start": 8440,
+            "end": 8490
+        },
+        {
+            "start": 8491,
+            "end": 8801
+        },
+        {
+            "start": 8803,
+            "end": 9079
+        },
+        {
+            "start": 9081,
+            "end": 9194
+        },
+        {
+            "start": 9195,
+            "end": 9413
+        },
+        {
+            "start": 9414,
+            "end": 9471
+        },
+        {
+            "start": 9472,
+            "end": 9569
+        },
+        {
+            "start": 9570,
+            "end": 9697
+        },
+        {
+            "start": 9698,
+            "end": 9961
+        },
+        {
+            "start": 9962,
+            "end": 10158
+        },
+        {
+            "start": 10159,
+            "end": 10270
+        },
+        {
+            "start": 10271,
+            "end": 10323
+        },
+        {
+            "start": 10324,
+            "end": 10500
+        },
+        {
+            "start": 10501,
+            "end": 10705
+        },
+        {
+            "start": 10707,
+            "end": 10769
+        },
+        {
+            "start": 10771,
+            "end": 10957
+        },
+        {
+            "start": 10958,
+            "end": 11066
+        },
+        {
+            "start": 11067,
+            "end": 11213
+        },
+        {
+            "start": 11214,
+            "end": 11351
+        },
+        {
+            "start": 11352,
+            "end": 11395
+        },
+        {
+            "start": 11396,
+            "end": 11509
+        },
+        {
+            "start": 11510,
+            "end": 11714
+        },
+        {
+            "start": 11715,
+            "end": 11835
+        },
+        {
+            "start": 11836,
+            "end": 12038
+        },
+        {
+            "start": 12040,
+            "end": 12266
+        },
+        {
+            "start": 12267,
+            "end": 12327
+        },
+        {
+            "start": 12328,
+            "end": 12508
+        },
+        {
+            "start": 12509,
+            "end": 12671
+        },
+        {
+            "start": 12672,
+            "end": 12723
+        },
+        {
+            "start": 12724,
+            "end": 12848
+        },
+        {
+            "start": 12849,
+            "end": 12945
+        },
+        {
+            "start": 12946,
+            "end": 13181
+        },
+        {
+            "start": 13182,
+            "end": 13254
+        },
+        {
+            "start": 13255,
+            "end": 13498
+        },
+        {
+            "start": 13500,
+            "end": 13608
+        },
+        {
+            "start": 13609,
+            "end": 13817
+        },
+        {
+            "start": 13818,
+            "end": 14017
+        },
+        {
+            "start": 14018,
+            "end": 14041
+        },
+        {
+            "start": 14042,
+            "end": 14043
+        },
+        {
+            "start": 14044,
+            "end": 14070
+        },
+        {
+            "start": 14071,
+            "end": 14082
+        },
+        {
+            "start": 14083,
+            "end": 14096
+        },
+        {
+            "start": 14097,
+            "end": 14108
+        },
+        {
+            "start": 14109,
+            "end": 14220
+        },
+        {
+            "start": 14221,
+            "end": 14369
+        },
+        {
+            "start": 14371,
+            "end": 14460
+        },
+        {
+            "start": 14461,
+            "end": 14764
+        },
+        {
+            "start": 14766,
+            "end": 14997
+        },
+        {
+            "start": 14999,
+            "end": 15103
+        },
+        {
+            "start": 15104,
+            "end": 15213
+        },
+        {
+            "start": 15214,
+            "end": 15280
+        },
+        {
+            "start": 15281,
+            "end": 15357
+        },
+        {
+            "start": 15358,
+            "end": 15359
+        },
+        {
+            "start": 15360,
+            "end": 15439
+        },
+        {
+            "start": 15440,
+            "end": 15609
+        },
+        {
+            "start": 15610,
+            "end": 15661
+        },
+        {
+            "start": 15662,
+            "end": 15692
+        },
+        {
+            "start": 15694,
+            "end": 15839
+        },
+        {
+            "start": 15840,
+            "end": 15984
+        },
+        {
+            "start": 15986,
+            "end": 16241
+        },
+        {
+            "start": 16243,
+            "end": 16419
+        },
+        {
+            "start": 16420,
+            "end": 16554
+        },
+        {
+            "start": 16555,
+            "end": 16624
+        },
+        {
+            "start": 16625,
+            "end": 16741
+        },
+        {
+            "start": 16742,
+            "end": 16857
+        },
+        {
+            "start": 16858,
+            "end": 16862
+        },
+        {
+            "start": 16863,
+            "end": 16962
+        },
+        {
+            "start": 16963,
+            "end": 17085
+        },
+        {
+            "start": 17086,
+            "end": 17137
+        },
+        {
+            "start": 17138,
+            "end": 17274
+        },
+        {
+            "start": 17275,
+            "end": 17350
+        },
+        {
+            "start": 17352,
+            "end": 17449
+        },
+        {
+            "start": 17450,
+            "end": 17560
+        },
+        {
+            "start": 17561,
+            "end": 17696
+        },
+        {
+            "start": 17697,
+            "end": 17736
+        },
+        {
+            "start": 17737,
+            "end": 17825
+        },
+        {
+            "start": 17827,
+            "end": 18182
+        },
+        {
+            "start": 18183,
+            "end": 18204
+        },
+        {
+            "start": 18205,
+            "end": 18371
+        },
+        {
+            "start": 18373,
+            "end": 18471
+        },
+        {
+            "start": 18472,
+            "end": 18837
+        },
+        {
+            "start": 18838,
+            "end": 19033
+        },
+        {
+            "start": 19035,
+            "end": 19083
+        },
+        {
+            "start": 19084,
+            "end": 19177
+        },
+        {
+            "start": 19178,
+            "end": 19233
+        },
+        {
+            "start": 19234,
+            "end": 19249
+        },
+        {
+            "start": 19250,
+            "end": 19393
+        },
+        {
+            "start": 19395,
+            "end": 19415
+        },
+        {
+            "start": 19416,
+            "end": 19455
+        },
+        {
+            "start": 19457,
+            "end": 19463
+        },
+        {
+            "start": 19464,
+            "end": 19568
+        },
+        {
+            "start": 19569,
+            "end": 19578
+        },
+        {
+            "start": 19579,
+            "end": 19642
+        },
+        {
+            "start": 19644,
+            "end": 19694
+        },
+        {
+            "start": 19695,
+            "end": 19760
+        },
+        {
+            "start": 19761,
+            "end": 19824
+        },
+        {
+            "start": 19825,
+            "end": 19925
+        },
+        {
+            "start": 19926,
+            "end": 20122
+        },
+        {
+            "start": 20124,
+            "end": 20160
+        },
+        {
+            "start": 20162,
+            "end": 20187
+        },
+        {
+            "start": 20189,
+            "end": 20250
+        },
+        {
+            "start": 20252,
+            "end": 20295
+        },
+        {
+            "start": 20296,
+            "end": 20315
+        },
+        {
+            "start": 20316,
+            "end": 20480
+        },
+        {
+            "start": 20482,
+            "end": 20535
+        },
+        {
+            "start": 20536,
+            "end": 20620
+        },
+        {
+            "start": 20621,
+            "end": 20642
+        },
+        {
+            "start": 20643,
+            "end": 20703
+        },
+        {
+            "start": 20704,
+            "end": 20895
+        },
+        {
+            "start": 20897,
+            "end": 21061
+        },
+        {
+            "start": 21062,
+            "end": 21151
+        },
+        {
+            "start": 21152,
+            "end": 21330
+        },
+        {
+            "start": 21331,
+            "end": 21399
+        },
+        {
+            "start": 21400,
+            "end": 21458
+        },
+        {
+            "start": 21459,
+            "end": 21573
+        },
+        {
+            "start": 21574,
+            "end": 21587
+        },
+        {
+            "start": 21588,
+            "end": 21756
+        },
+        {
+            "start": 21757,
+            "end": 21870
+        },
+        {
+            "start": 21871,
+            "end": 21928
+        },
+        {
+            "start": 21929,
+            "end": 22042
+        },
+        {
+            "start": 22043,
+            "end": 22113
+        },
+        {
+            "start": 22115,
+            "end": 22222
+        },
+        {
+            "start": 22223,
+            "end": 22347
+        },
+        {
+            "start": 22348,
+            "end": 22453
+        },
+        {
+            "start": 22454,
+            "end": 22506
+        },
+        {
+            "start": 22508,
+            "end": 22618
+        },
+        {
+            "start": 22619,
+            "end": 22806
+        },
+        {
+            "start": 22808,
+            "end": 22856
+        },
+        {
+            "start": 22857,
+            "end": 22945
+        },
+        {
+            "start": 22946,
+            "end": 23018
+        },
+        {
+            "start": 23020,
+            "end": 23047
+        },
+        {
+            "start": 23048,
+            "end": 23111
+        },
+        {
+            "start": 23112,
+            "end": 23196
+        },
+        {
+            "start": 23198,
+            "end": 23333
+        },
+        {
+            "start": 23334,
+            "end": 23434
+        },
+        {
+            "start": 23435,
+            "end": 23551
+        },
+        {
+            "start": 23553,
+            "end": 23584
+        },
+        {
+            "start": 23585,
+            "end": 23667
+        },
+        {
+            "start": 23668,
+            "end": 23896
+        }
+    ],
+    "md5": "feb42a0240718168affb5358a8e4ab16"
+}

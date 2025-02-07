@@ -1,0 +1,18 @@
+torch
+git+https://wuenlp.professor-x.de
+loguru
+pygamma-agreement
+scikit-learn
+transformers[torch]
+datasets
+accelerate
+bitsandbytes
+quanto
+peft
+tensorboard
+cache_to_disk
+sft
+langchain
+tiktoken
+trl
+unsloth # Take note of the unsloth install instructions, which heavily depend on the environment
