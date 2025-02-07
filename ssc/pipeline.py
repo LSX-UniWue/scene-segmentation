@@ -222,7 +222,6 @@ def annotate_document(doc: UIMADocument,
             logger.warning("Document already contains system scenes. Skipping.")
             return doc
     is_unsloth = False
-    print(model.__class__)
     for t in (PeftModelForCausalLM, LlamaForCausalLM):
         if isinstance(model, t):
             is_unsloth = True
@@ -368,31 +367,6 @@ def _annotate_document_with_bert(doc: UIMADocument, model: SSCModel):
     return doc
 
 
-def main():
-    unsloth = False
-
-    doc = UIMADocument.from_xmi(
-        datasets_folder / "ood_test" / "Harry Potter und der Halbblutprinz - Kapitel Schleim*.xmi.zip")
-    pretrained_model_name_or_path = "/home/ls6/zehe/remote_python/scenes-general/temp/test_trainer/checkpoint-2000"
-    pretrained_model_name_or_path = "/Users/zehe/ceph/remote_python/scenes-general/temp/test_trainer/checkpoint-2000"
-    pretrained_model_name_or_path = "/tmp/checkpoint-8500"
-    pretrained_model_name_or_path = "/tmp/fiction-gbert-large_512ctx_Clbl_5ep_hstr_stss_train_NLL_NM_FEM_1lstm"
-    pretrained_model_name_or_path = "/home/ls6/zehe/remote_python/scenes-general/acl2024/models/llama-3-8b-Instruct-bnb-4bit_512ctx_5ep_train_full_42seed_exhaustive_list"
-    model, tokenizer = load_model(pretrained_model_name_or_path, unsloth)
-
-    doc = annotate_document(doc=doc, model=model, cot_config=CoTConfigs.exhaustive_list.value, tokenizer=tokenizer)
-    doc.serialize("/tmp/hp6.xmi.zip")
-
-    """
-    for tolerance in [0, 1, 2, 3]:
-        print(f"Tolerance: {tolerance}")
-        results = annotate_and_evaluate_document(coarse=True, doc=doc, model=model, tolerance=tolerance,
-                                                 output_file=Path("/tmp/hp6.xmi.zip"))
-        print(results)
-        print()
-    """
-
-
 def load_model(pretrained_model_name_or_path, unsloth):
     if unsloth:
         model, tokenizer = FastLanguageModel.from_pretrained(
@@ -407,7 +381,3 @@ def load_model(pretrained_model_name_or_path, unsloth):
         model = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path, load_in_4bit=True)
         tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path)
     return model, tokenizer
-
-
-if __name__ == '__main__':
-    main()

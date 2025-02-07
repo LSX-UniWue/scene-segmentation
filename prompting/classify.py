@@ -20,6 +20,8 @@ from wuenlp.impl.UIMANLPStructs import UIMADocument, UIMAScene, UIMASentence
 from loguru import logger
 import tiktoken
 
+from utils.constants import datasets_folder
+
 INPUT_PERCENTAGE = 0.8
 
 OLLAMA_API_BASE = "OLLAMA API Base URL"
@@ -107,17 +109,6 @@ def classify_sentences(doc: UIMADocument, model: Model, cache_dir: Path, out_dir
         prompt_text = prompt_classify
         print(prompt_text)
         chain = get_chain(model, prompt_text)
-
-        """
-        for example in examples:
-            example_text = example["text"]
-            example_label = example["label"]
-            if example_label is True or random.randint(0, 100) < 5:
-                chain.memory.chat_memory.add_user_message(example_text)
-                chain.memory.chat_memory.add_ai_message(example_label)
-
-        chain.memory.chat_memory.messages = chain.memory.chat_memory.messages[:16]
-        """
 
         for i, sentence in enumerate(tqdm(doc.sentences, total=len(doc.sentences))):
             if i < len(predicted_labels["labels"]):
@@ -264,7 +255,7 @@ def notify(x):
 
 
 def classify():
-    in_dir = Path("../acl2024/datasets/test_full/")
+    in_dir = datasets_folder / "test_full"
     classify_cache_dir = Path("data/cache_classify")
     classify_cache_dir.mkdir(exist_ok=True, parents=True)
     classify_out_dir = Path("data/output_classify/")

@@ -24,11 +24,6 @@ def custom_decoder(dct):
         if cls_name == 'ClassLabel':
             dct.pop("_type")
             return ClassLabel(**dct)
-    # if '_type' in dct:
-    #    if dct['_type'] == 'PreTrainedModel':
-    #        return PreTrainedModel.from_pretrained(dct['state_dict'])
-    #    elif dct['_type'] == 'PreTrainedTokenizer':
-    #        return PreTrainedTokenizer.from_pretrained(dct['state_dict'])
     return dct
 
 
@@ -56,6 +51,7 @@ def _patched_loads(*args, **kwargs):
 def _patched_load(*args, **kwargs):
     kwargs['object_hook'] = custom_decoder
     return _original_load(*args, **kwargs)
+
 
 json.dumps = _patched_dumps
 json.dump = _patched_dump

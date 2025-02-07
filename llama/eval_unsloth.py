@@ -10,6 +10,8 @@ from llama.cot import CoTConfigs
 from ssc.pipeline import annotate_and_evaluate_files
 from unsloth import FastLanguageModel
 
+from utils.constants import datasets_folder
+
 parser = ArgumentParser()
 parser.add_argument('--model', type=str, required=True)
 parser.add_argument('--test_set', type=str, required=True)

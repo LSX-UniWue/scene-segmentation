@@ -284,7 +284,8 @@ def xmi_to_llama_samples(xmi_path: Path, context_size: int, tokenizer: PreTraine
                          cot_config: CoTConfig) -> Dict:
     doc = UIMADocument.from_xmi(xmi_path)
 
-    return doc_to_llama_samples(doc, context_size=context_size, tokenizer=tokenizer, labels=train, cot_config=cot_config)
+    return doc_to_llama_samples(doc, context_size=context_size, tokenizer=tokenizer, labels=train,
+                                cot_config=cot_config)
 
 
 class SSCDataset:
@@ -317,47 +318,3 @@ class SSCDataset:
     def yield_samples(self):
         for sample in self.get_samples():
             yield sample
-
-
-if __name__ == '__main__':
-    tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
-    tokenizer.eos_token = "EOS"
-    samples = xmi_to_llama_samples(
-        Path("../acl2024/datasets/ood_test/Harry Potter und der Halbblutprinz - Kapitel Der Slug Club.xmi.zip"),
-        context_size=512, tokenizer=tokenizer, train=True)
-
-    train_llama_samples = {"llama_sentences": list(itertools.chain(*[xmi_to_llama_samples(
-        file, context_size=512, tokenizer=tokenizer, train=True)["llama_sentences"] for file in
-                                                                     [Path(
-                                                                         "../acl2024/datasets/ood_test/Harry Potter und der Halbblutprinz - Kapitel Der Slug Club.xmi.zip"),
-                                                                         Path(
-                                                                             "../acl2024/datasets/ood_test/Harry Potter und der Halbblutprinz - Kapitel Schleim*.xmi.zip")]]))}
-
-    from collections import Counter
-    from datasets import Dataset as DS
-
-    true_string = "'<|start_header_id|>assistant<|end_header_id|>\n\n'True"
-    label_distribution = Counter(
-        ["border" if true_string in sample else "noborder" for sample in train_llama_samples["llama_sentences"]])
-    print(label_distribution)
-    train_llama_samples = {"llama_sentences": [sample for sample in train_llama_samples["llama_sentences"] if
-                                               true_string in sample or random.randint(0, 100) < 10]}
-
-    train_dataset = DS.from_list(
-        [dict(zip(train_llama_samples.keys(), values)) for values in zip(*train_llama_samples.values())])
-    # train_dataset = train_dataset.map(extract_llama_sentences, batched=True)
-
-    print()
-
-    # samples = xmi_to_window_samples(
-    #    Path("../acl2024/datasets/ood_test/Harry Potter und der Halbblutprinz - Kapitel Der Slug Club.xmi.zip"),
-    #   context_size=512, tokenizer=AutoTokenizer.from_pretrained("google-bert/bert-base-uncased"), stride=Stride.Full,
-    #  coarse=False, drop_noninformative=False)
-
-    from collections import Counter
-
-    # for sample in samples:
-    #   for sentence, label in zip(*sample):
-    #      if label != Label.NOBORDER:
-    #         print("---")
-    #    print(sentence, label)
